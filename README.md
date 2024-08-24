@@ -1,13 +1,5 @@
 # CIFAR-10 Image Denoising Project
 
-This project demonstrates how to remove noise from images using a Convolutional Autoencoder. It uses the CIFAR-10 dataset, adding Gaussian noise to simulate real-world noisy data, and aims to reconstruct clean images using a deep learning model built with TensorFlow.
-
-## Key Features:
-- Convolutional Autoencoder for denoising images.
-- CIFAR-10 dataset for training and evaluation.
-- Visualization of noisy and reconstructed images.
-
-
 ## Project Overview
 
 This project demonstrates an image denoising autoencoder model applied to the CIFAR-10 dataset. The goal is to remove noise from images using a convolutional neural network (CNN) model. The noisy images are created by adding random Gaussian noise to the original CIFAR-10 dataset images. The model is trained to reconstruct the original, clean images from the noisy ones.
